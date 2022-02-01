@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.js": "/argon-dashboard-chakra/static/js/main.1d01fea3.chunk.js",
+    "main.js.map": "/argon-dashboard-chakra/static/js/main.1d01fea3.chunk.js.map",
+    "runtime-main.js": "/argon-dashboard-chakra/static/js/runtime-main.a765a059.js",
+    "runtime-main.js.map": "/argon-dashboard-chakra/static/js/runtime-main.a765a059.js.map",
+    "static/js/2.42d874f7.chunk.js": "/argon-dashboard-chakra/static/js/2.42d874f7.chunk.js",
+    "static/js/2.42d874f7.chunk.js.map": "/argon-dashboard-chakra/static/js/2.42d874f7.chunk.js.map",
+    "index.html": "/argon-dashboard-chakra/index.html",
+    "static/js/2.42d874f7.chunk.js.LICENSE.txt": "/argon-dashboard-chakra/static/js/2.42d874f7.chunk.js.LICENSE.txt",
+    "static/js/main.1d01fea3.chunk.js.LICENSE.txt": "/argon-dashboard-chakra/static/js/main.1d01fea3.chunk.js.LICENSE.txt",
+    "static/media/BackgroundCard1.55c062c0.png": "/argon-dashboard-chakra/static/media/BackgroundCard1.55c062c0.png",
+    "static/media/BgSignUp.9b1e961c.png": "/argon-dashboard-chakra/static/media/BgSignUp.9b1e961c.png",
+    "static/media/ImageArchitect1.032614a5.png": "/argon-dashboard-chakra/static/media/ImageArchitect1.032614a5.png",
+    "static/media/ImageArchitect2.960c2b9c.png": "/argon-dashboard-chakra/static/media/ImageArchitect2.960c2b9c.png",
+    "static/media/ImageArchitect3.db5ecbbd.png": "/argon-dashboard-chakra/static/media/ImageArchitect3.db5ecbbd.png",
+    "static/media/SidebarHelpImage.bace667c.png": "/argon-dashboard-chakra/static/media/SidebarHelpImage.bace667c.png",
+    "static/media/admin-background.5e664491.png": "/argon-dashboard-chakra/static/media/admin-background.5e664491.png",
+    "static/media/avatar1.eeef2af6.png": "/argon-dashboard-chakra/static/media/avatar1.eeef2af6.png",
+    "static/media/avatar10.1683e1c0.png": "/argon-dashboard-chakra/static/media/avatar10.1683e1c0.png",
+    "static/media/avatar2.5692c39d.png": "/argon-dashboard-chakra/static/media/avatar2.5692c39d.png",
+    "static/media/avatar3.9f646ac5.png": "/argon-dashboard-chakra/static/media/avatar3.9f646ac5.png",
+    "static/media/avatar4.54d5c1de.png": "/argon-dashboard-chakra/static/media/avatar4.54d5c1de.png",
+    "static/media/avatar5.d2c5420e.png": "/argon-dashboard-chakra/static/media/avatar5.d2c5420e.png",
+    "static/media/avatar6.97310bf2.png": "/argon-dashboard-chakra/static/media/avatar6.97310bf2.png",
+    "static/media/avatar7.00e8f4f0.png": "/argon-dashboard-chakra/static/media/avatar7.00e8f4f0.png",
+    "static/media/avatar8.9719f145.png": "/argon-dashboard-chakra/static/media/avatar8.9719f145.png",
+    "static/media/avatar9.2db98189.png": "/argon-dashboard-chakra/static/media/avatar9.2db98189.png",
+    "static/media/signInImage.dc6e0e9a.png": "/argon-dashboard-chakra/static/media/signInImage.dc6e0e9a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a765a059.js",
+    "static/js/2.42d874f7.chunk.js",
+    "static/js/main.1d01fea3.chunk.js"
+  ]
+}
