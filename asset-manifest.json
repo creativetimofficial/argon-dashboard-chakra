@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/argon-dashboard-chakra/static/js/main.1d01fea3.chunk.js",
-    "main.js.map": "/argon-dashboard-chakra/static/js/main.1d01fea3.chunk.js.map",
+    "main.js": "/argon-dashboard-chakra/static/js/main.b91a91a2.chunk.js",
+    "main.js.map": "/argon-dashboard-chakra/static/js/main.b91a91a2.chunk.js.map",
     "runtime-main.js": "/argon-dashboard-chakra/static/js/runtime-main.a765a059.js",
     "runtime-main.js.map": "/argon-dashboard-chakra/static/js/runtime-main.a765a059.js.map",
-    "static/js/2.42d874f7.chunk.js": "/argon-dashboard-chakra/static/js/2.42d874f7.chunk.js",
-    "static/js/2.42d874f7.chunk.js.map": "/argon-dashboard-chakra/static/js/2.42d874f7.chunk.js.map",
+    "static/js/2.5a6aa3b8.chunk.js": "/argon-dashboard-chakra/static/js/2.5a6aa3b8.chunk.js",
+    "static/js/2.5a6aa3b8.chunk.js.map": "/argon-dashboard-chakra/static/js/2.5a6aa3b8.chunk.js.map",
     "index.html": "/argon-dashboard-chakra/index.html",
-    "static/js/2.42d874f7.chunk.js.LICENSE.txt": "/argon-dashboard-chakra/static/js/2.42d874f7.chunk.js.LICENSE.txt",
-    "static/js/main.1d01fea3.chunk.js.LICENSE.txt": "/argon-dashboard-chakra/static/js/main.1d01fea3.chunk.js.LICENSE.txt",
+    "static/js/2.5a6aa3b8.chunk.js.LICENSE.txt": "/argon-dashboard-chakra/static/js/2.5a6aa3b8.chunk.js.LICENSE.txt",
+    "static/js/main.b91a91a2.chunk.js.LICENSE.txt": "/argon-dashboard-chakra/static/js/main.b91a91a2.chunk.js.LICENSE.txt",
     "static/media/BackgroundCard1.55c062c0.png": "/argon-dashboard-chakra/static/media/BackgroundCard1.55c062c0.png",
     "static/media/BgSignUp.9b1e961c.png": "/argon-dashboard-chakra/static/media/BgSignUp.9b1e961c.png",
     "static/media/ImageArchitect1.032614a5.png": "/argon-dashboard-chakra/static/media/ImageArchitect1.032614a5.png",
@@ -30,7 +30,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a765a059.js",
-    "static/js/2.42d874f7.chunk.js",
-    "static/js/main.1d01fea3.chunk.js"
+    "static/js/2.5a6aa3b8.chunk.js",
+    "static/js/main.b91a91a2.chunk.js"
   ]
 }
