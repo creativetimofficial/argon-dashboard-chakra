@@ -32,17 +32,14 @@ export default function Footer(props) {
         </Text>
         <Link
           color='blue.400'
-          href='https://www.creative-tim.com?ref=creativetim-argonchakra'
+          href='https://www.creative-tim.com'
           target='_blank'>
           {document.documentElement.dir === "rtl"
             ? " توقيت الإبداعية"
             : "Creative Tim "}
         </Link>
         &
-        <Link
-          color='blue.400'
-          href='https://www.simmmple.com?ref=creativetim-argonchakra'
-          target='_blank'>
+        <Link color='blue.400' href='https://www.simmmple.com' target='_blank'>
           {document.documentElement.dir === "rtl" ? "سيممبل " : " Simmmple"}
         </Link>
         {document.documentElement.dir === "rtl"
@@ -55,9 +52,7 @@ export default function Footer(props) {
             base: "20px",
             md: "44px",
           }}>
-          <Link
-            color='gray.400'
-            href='https://www.creative-tim.com?ref=creativetim-argonchakra'>
+          <Link color='gray.400' href='https://www.creative-tim.com'>
             {document.documentElement.dir === "rtl"
               ? "توقيت الإبداعية"
               : "Creative Tim"}
@@ -68,9 +63,7 @@ export default function Footer(props) {
             base: "20px",
             md: "44px",
           }}>
-          <Link
-            color='gray.400'
-            href='https://www.simmmple.com?ref=creativetim-argonchakra'>
+          <Link color='gray.400' href='https://www.simmmple.com'>
             {document.documentElement.dir === "rtl" ? "سيممبل" : "Simmmple"}
           </Link>
         </ListItem>
@@ -82,7 +75,7 @@ export default function Footer(props) {
           <Link
             color='gray.400'
             href='#blog'
-            href='https://creative-tim.com/blog?ref=creativetim-argonchakra'>
+            href='https://creative-tim.com/blog'>
             {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
           </Link>
         </ListItem>
@@ -90,7 +83,7 @@ export default function Footer(props) {
           <Link
             color='gray.400'
             href='#license'
-            href='https://www.creative-tim.com/license?ref=creativetim-argonchakra'>
+            href='https://www.creative-tim.com/license'>
             {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
           </Link>
         </ListItem>
