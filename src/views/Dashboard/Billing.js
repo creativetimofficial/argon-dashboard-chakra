@@ -283,7 +283,7 @@ function Billing() {
           </CardHeader>
           <CardBody>
             <Flex direction='column' w='100%'>
-              {invoicesData.map((row) => {
+              {invoicesData.map((row, idx) => {
                 return (
                   <InvoicesRow
                     date={row.date}
@@ -291,6 +291,7 @@ function Billing() {
                     price={row.price}
                     logo={row.logo}
                     format={row.format}
+                    key={idx}
                   />
                 );
               })}
@@ -308,13 +309,14 @@ function Billing() {
             </CardHeader>
             <CardBody>
               <Flex direction='column' w='100%'>
-                {billingData.map((row) => {
+                {billingData.map((row, key) => {
                   return (
                     <BillingRow
                       name={row.name}
                       company={row.company}
                       email={row.email}
                       number={row.number}
+                      key={key}
                     />
                   );
                 })}
@@ -359,13 +361,14 @@ function Billing() {
                 my='12px'>
                 NEWEST
               </Text>
-              {newestTransactions.map((row) => {
+              {newestTransactions.map((row, idx) => {
                 return (
                   <TransactionRow
                     name={row.name}
                     logo={row.logo}
                     date={row.date}
                     price={row.price}
+                    key={idx}
                   />
                 );
               })}
@@ -376,13 +379,14 @@ function Billing() {
                 my='12px'>
                 OLDER
               </Text>
-              {olderTransactions.map((row) => {
+              {olderTransactions.map((row, idx) => {
                 return (
                   <TransactionRow
                     name={row.name}
                     logo={row.logo}
                     date={row.date}
                     price={row.price}
+                    key={idx}
                   />
                 );
               })}

@@ -7,19 +7,16 @@ import {
   DrawerCloseButton,
   DrawerContent,
   DrawerHeader,
-  Flex,
-  Icon,
-  Link,
+  Flex, Link,
   Switch,
   Text,
   useColorMode,
-  useColorModeValue,
+  useColorModeValue
 } from "@chakra-ui/react";
-import GitHubButton from "react-github-btn";
 import { HSeparator } from "components/Separator/Separator";
-import PropTypes from "prop-types";
 import React, { useState } from "react";
-import { FaTwitter, FaFacebook } from "react-icons/fa";
+import GitHubButton from "react-github-btn";
+import { FaFacebook, FaTwitter } from "react-icons/fa";
 
 export default function Configurator(props) {
   const {
@@ -190,9 +187,3 @@ export default function Configurator(props) {
     </>
   );
 }
-Configurator.propTypes = {
-  secondary: PropTypes.bool,
-  isOpen: PropTypes.func,
-  onClose: PropTypes.func,
-  fixed: PropTypes.bool,
-};

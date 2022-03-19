@@ -1,4 +1,5 @@
 import { createIcon } from "@chakra-ui/icons";
+import React, { Component }  from 'react';
 
 export const AdobexdLogo = createIcon({
   displayName: "AdobexdLogo",
@@ -78,14 +79,14 @@ export const CreativeTimLogo = createIcon({
       <g
         id='logo-creative-tim-black'
         stroke='none'
-        stroke-width='1'
+        strokeWidth='1'
         fill='none'
-        fill-rule='evenodd'>
+        fillRule='evenodd'>
         <g
           id='icon'
           transform='translate(15.000000, 19.000000)'
           fill='currentColor'
-          fill-rule='nonzero'>
+          fillRule='nonzero'>
           <path
             d='M66.4346744,1.49018376e-13 L3.56968951,1.49018376e-13 C1.59820443,1.49018376e-13 -2.98036753e-13,1.59820443 -2.98036753e-13,3.56968951 L-2.98036753e-13,33.5035241 C-2.98036753e-13,35.4750091 1.59820443,37.0732136 3.56968951,37.0732136 L16.4677598,37.0732136 L16.4677598,66.4346744 C16.4666001,67.3810129 16.8417189,68.288989 17.5104719,68.9585615 C18.1792249,69.628134 19.0867408,70.0043639 20.03308,70.0043639 L49.9669146,70.0043639 C51.9383997,70.0043639 53.5366041,68.4061595 53.5366041,66.4346744 L53.5366041,37.0863214 L66.4346744,37.0863214 C67.3810136,37.0863221 68.2885296,36.7100915 68.9572826,36.0405189 C69.6260355,35.3709464 70.0011544,34.4629704 70,33.5166319 L70,3.56968951 C70.0011544,2.62335099 69.6260355,1.71537495 68.9572826,1.04580242 C68.2885296,0.37622988 67.3810136,1.49018376e-13 66.4346744,1.49018376e-13 Z M4.13769396,4.14206323 L32.9311503,4.14206323 L32.9311503,32.9355196 L4.13769396,32.9355196 L4.13769396,4.14206323 Z M49.3989102,65.86667 L20.6054538,65.86667 L20.6054538,37.0863214 L49.3989102,37.0863214 L49.3989102,65.86667 Z M65.8623007,32.9355196 L37.0688443,32.9355196 L37.0688443,4.14206323 L65.8623007,4.14206323 L65.8623007,32.9355196 Z'
             id='Shape'
@@ -163,8 +164,8 @@ export const DashboardLogo = createIcon({
           x2='128.5'
           y2='257'
           gradientUnits='userSpaceOnUse'>
-          <stop stop-color='#7BCBD4' />
-          <stop offset='1' stop-color='#29C6B7' />
+          <stop stopColor='#7BCBD4' />
+          <stop offset='1' stopColor='#29C6B7' />
         </linearGradient>
         <clipPath id='clip0'>
           <rect width='997.832' height='257' fill='white' />
@@ -217,15 +218,15 @@ export const GlobeIcon = createIcon({
         stroke='currentColor'
         fill='transparent'
         d='M11.25 2.109a9.14 9.14 0 100 18.281 9.14 9.14 0 000-18.281z'
-        stroke-width='.75'
-        stroke-miterlimit='10'
+        strokeWidth='.75'
+        strokeMiterlimit='10'
       />
       <path
         stroke='currentColor'
         fill='transparent'
         d='M11.25 2.109C8.698 2.109 6.3 6.2 6.3 11.249c0 5.048 2.4 9.14 4.951 9.14 2.552 0 4.951-4.092 4.951-9.14 0-5.048-2.399-9.14-4.95-9.14z'
-        stroke-width='.75'
-        stroke-miterlimit='10'
+        strokeWidth='.75'
+        strokeMiterlimit='10'
       />
       <path
         stroke='currentColor'
@@ -236,16 +237,16 @@ export const GlobeIcon = createIcon({
         stroke='currentColor'
         fill='transparent'
         d='M5.156 5.156C6.836 6.349 8.952 7.06 11.25 7.06c2.298 0 4.414-.711 6.094-1.904M17.344 17.344c-1.68-1.193-3.796-1.904-6.094-1.904-2.298 0-4.413.711-6.094 1.904'
-        stroke-width='.75'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='.75'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         stroke='currentColor'
         fill='transparent'
         d='M11.25 2.109v18.28M20.39 11.249H2.11'
-        stroke-width='.75'
-        stroke-miterlimit='10'
+        strokeWidth='.75'
+        strokeMiterlimit='10'
       />
     </g>
   ),
@@ -411,7 +412,7 @@ export const SlackLogo = createIcon({
   displayName: "SlackLogo",
   viewBox: "0 0 24 24",
   path: (
-    <g clip-path='url(#clip0)' fill-rule='evenodd' clip-rule='evenodd'>
+    <g clip-path='url(#clip0)' fillRule='evenodd' clipRule='evenodd'>
       <path
         d='M7.832.5c-1.105 0-2 .919-1.999 2.05 0 1.13.895 2.048 2 2.05h2V2.55c.001-1.13-.894-2.048-2-2.05zm0 5.467H2.5c-1.106 0-2.001.918-2 2.05-.002 1.13.894 2.048 2 2.05h5.332c1.106-.001 2.002-.919 2-2.05.002-1.132-.894-2.05-2-2.05z'
         fill='#36C5F0'
@@ -496,8 +497,8 @@ export const VisaIcon = createIcon({
       fill='none'
       xmlns='http://www.w3.org/2000/svg'>
       <path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M12.6708 2.96349C12.6568 4.15055 13.653 4.81298 14.4034 5.20684C15.1744 5.61099 15.4333 5.87013 15.4304 6.23147C15.4245 6.78459 14.8153 7.02862 14.2452 7.03812C13.2505 7.05475 12.6723 6.74889 12.2125 6.51753L11.8542 8.32341C12.3155 8.55247 13.1696 8.75217 14.0554 8.76087C16.1345 8.76087 17.4947 7.65543 17.5021 5.94145C17.5102 3.76625 14.7087 3.64579 14.7278 2.67348C14.7344 2.37871 14.9956 2.06408 15.568 1.98406C15.8512 1.94368 16.6332 1.91274 17.5198 2.35252L17.8677 0.605286C17.391 0.418253 16.7782 0.239136 16.0153 0.239136C14.0583 0.239136 12.6819 1.35962 12.6708 2.96349ZM21.2115 0.389687C20.8319 0.389687 20.5118 0.628245 20.3691 0.99433L17.3991 8.63249H19.4767L19.8901 7.40183H22.429L22.6689 8.63249H24.5L22.9021 0.389687H21.2115ZM21.5021 2.61641L22.1016 5.7116H20.4596L21.5021 2.61641ZM10.1518 0.389687L8.51418 8.63249H10.4939L12.1308 0.389687H10.1518ZM7.22303 0.389687L5.16233 6.00003L4.32878 1.22966C4.23097 0.697187 3.84472 0.389687 3.41579 0.389687H0.0471011L0 0.629037C0.691574 0.790671 1.47729 1.0514 1.95326 1.33033C2.24457 1.50067 2.32775 1.64964 2.42336 2.05458L4.00214 8.63249H6.0945L9.3021 0.389687H7.22303Z'
         fill='#4318FF'
       />
@@ -511,8 +512,8 @@ export const ArgonLogoDark = createIcon({
   path: (
     <svg width='74' height='27' fill='none' xmlns='http://www.w3.org/2000/svg'>
       <path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M2.72 15.552.465 11.643 3.1 7.1l5.254-.01 2.256 3.908 4.208.002 2.603 4.507-2.651 4.518-4.194.024-2.117 3.62-5.239.036-2.602-4.507 2.103-3.645Zm11.178 2.96 1.772-3.003-1.745-3.022-3.487.033-1.585 2.721 1.896 3.283 3.149-.011Zm-6.312 3.644 1.585-2.72-1.895-3.284-3.15.012-1.772 3.003L4.1 22.19l3.487-.034Zm-.153-7.553 1.772-3.004L7.46 8.577l-3.487.033L2.2 11.613l1.745 3.023 3.488-.034Z'
         fill='#1A202C'
       />
@@ -530,8 +531,8 @@ export const ArgonLogoLight = createIcon({
   path: (
     <svg width='74' height='27' fill='none' xmlns='http://www.w3.org/2000/svg'>
       <path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M2.256 15.552 0 11.643 2.636 7.1l5.253-.01 2.256 3.908 4.209.002 2.602 4.507-2.65 4.518-4.194.024-2.118 3.62-5.238.036-2.602-4.507 2.102-3.645Zm11.177 2.96 1.773-3.003-1.745-3.022-3.488.033-1.584 2.721 1.895 3.283 3.15-.011Zm-6.311 3.644 1.585-2.72-1.896-3.284-3.149.012-1.772 3.003 1.745 3.023 3.487-.034Zm-.154-7.553 1.773-3.004-1.745-3.022-3.488.033-1.772 3.003 1.745 3.023 3.487-.034Z'
         fill='#fff'
       />
@@ -568,8 +569,8 @@ export const ChakraLogoDark = createIcon({
           x2='10.558'
           y2='21'
           gradientUnits='userSpaceOnUse'>
-          <stop stop-color='#7BCBD4' />
-          <stop offset='1' stop-color='#29C6B7' />
+          <stop stopColor='#7BCBD4' />
+          <stop offset='1' stopColor='#29C6B7' />
         </linearGradient>
       </defs>
     </svg>

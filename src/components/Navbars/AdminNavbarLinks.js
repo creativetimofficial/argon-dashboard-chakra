@@ -2,38 +2,27 @@
 import { BellIcon } from "@chakra-ui/icons";
 // Chakra Imports
 import {
-  Button,
+  Box, Button,
   Flex,
   Menu,
   MenuButton,
   MenuItem,
-  MenuList,
-  Text,
-  Stack,
-  Box,
-  useColorMode,
-  useColorModeValue,
+  MenuList, Stack, Text, useColorMode,
+  useColorModeValue
 } from "@chakra-ui/react";
 // Assets
 import avatar1 from "assets/img/avatars/avatar1.png";
 import avatar2 from "assets/img/avatars/avatar2.png";
 import avatar3 from "assets/img/avatars/avatar3.png";
 // Custom Icons
-import { ProfileIcon, SettingsIcon } from "components/Icons/Icons";
+import { ArgonLogoDark, ArgonLogoLight, ChakraLogoDark, ChakraLogoLight, ProfileIcon, SettingsIcon } from "components/Icons/Icons";
 // Custom Components
 import { ItemContent } from "components/Menu/ItemContent";
 import { SearchBar } from "components/Navbars/SearchBar/SearchBar";
 import { SidebarResponsive } from "components/Sidebar/Sidebar";
-import PropTypes from "prop-types";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import routes from "routes.js";
-import {
-  ArgonLogoDark,
-  ChakraLogoDark,
-  ArgonLogoLight,
-  ChakraLogoLight,
-} from "components/Icons/Icons";
 
 export default function HeaderLinks(props) {
   const {
@@ -162,10 +151,3 @@ export default function HeaderLinks(props) {
     </Flex>
   );
 }
-
-HeaderLinks.propTypes = {
-  variant: PropTypes.string,
-  fixed: PropTypes.bool,
-  secondary: PropTypes.bool,
-  onOpen: PropTypes.func,
-};

@@ -4,25 +4,18 @@ import {
   Button,
   Flex,
   HStack,
-  Link,
-  Text,
-  Stack,
-  useColorModeValue,
-  useColorMode,
+  Link, Stack, Text, useColorMode, useColorModeValue
 } from "@chakra-ui/react";
 import {
-  DocumentIcon,
-  HomeIcon,
-  PersonIcon,
-  RocketIcon,
-  ChakraLogoDark,
-  ChakraLogoLight,
   ArgonLogoDark,
   ArgonLogoLight,
-  ChakraLogoBlue,
+  ChakraLogoBlue, ChakraLogoDark,
+  ChakraLogoLight, DocumentIcon,
+  HomeIcon,
+  PersonIcon,
+  RocketIcon
 } from "components/Icons/Icons";
 import { SidebarResponsive } from "components/Sidebar/Sidebar";
-import PropTypes from "prop-types";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import routes from "routes.js";
@@ -209,8 +202,3 @@ export default function AuthNavbar(props) {
     </Flex>
   );
 }
-
-AuthNavbar.propTypes = {
-  color: PropTypes.oneOf(["primary", "info", "success", "warning", "danger"]),
-  brandText: PropTypes.string,
-};

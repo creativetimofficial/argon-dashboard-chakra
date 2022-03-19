@@ -55,6 +55,7 @@ function Tables() {
                     status={row.status}
                     date={row.date}
                     isLast={index === arr.length - 1 ? true : false}
+                    key={index}
                   />
                 );
               })}
@@ -97,6 +98,7 @@ function Tables() {
                     budget={row.budget}
                     progression={row.progression}
                     isLast={index === arr.length - 1 ? true : false}
+                    key={index}
                   />
                 );
               })}
