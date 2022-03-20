@@ -14,25 +14,24 @@ import {
   Text,
   useColorMode,
   useColorModeValue,
-  useDisclosure,
+  useDisclosure
 } from "@chakra-ui/react";
 import IconBox from "components/Icons/IconBox";
-import { HSeparator } from "components/Separator/Separator";
-import { SidebarHelp } from "components/Sidebar/SidebarHelp";
-import PropTypes from "prop-types";
-import React from "react";
-import { NavLink, useLocation } from "react-router-dom";
-
-import { Scrollbars } from "react-custom-scrollbars";
-
 import {
   renderThumbDark,
   renderThumbLight,
   renderTrack,
   renderTrackRTL,
   renderView,
-  renderViewRTL,
+  renderViewRTL
 } from "components/Scrollbar/Scrollbar";
+import { HSeparator } from "components/Separator/Separator";
+import { SidebarHelp } from "components/Sidebar/SidebarHelp";
+import React from "react";
+import { Scrollbars } from "react-custom-scrollbars";
+import { NavLink, useLocation } from "react-router-dom";
+
+
 
 // FUNCTIONS
 
@@ -48,7 +47,6 @@ function Sidebar(props) {
     return location.pathname === routeName ? "active" : "";
   };
   const { colorMode } = useColorMode;
-  console.log(colorMode);
   // this function creates the links and collapses that appear in the sidebar (left menu)
   const { sidebarVariant } = props;
   const createLinks = (routes) => {
@@ -89,7 +87,7 @@ function Sidebar(props) {
         );
       }
       return (
-        <NavLink to={prop.layout + prop.path}>
+        <NavLink to={prop.layout + prop.path} key={key}>
           {activeRoute(prop.layout + prop.path) === "active" ? (
             <Button
               boxSize="initial"
@@ -323,7 +321,7 @@ export function SidebarResponsive(props) {
         );
       }
       return (
-        <NavLink to={prop.layout + prop.path}>
+        <NavLink to={prop.layout + prop.path} key={key}>
           {activeRoute(prop.layout + prop.path) === "active" ? (
             <Button
               boxSize="initial"
@@ -496,16 +494,5 @@ export function SidebarResponsive(props) {
     </Flex>
   );
 }
-// PROPS
-
-Sidebar.propTypes = {
-  logo: PropTypes.string,
-  routes: PropTypes.arrayOf(PropTypes.object),
-  variant: PropTypes.string,
-};
-SidebarResponsive.propTypes = {
-  logo: PropTypes.string,
-  routes: PropTypes.arrayOf(PropTypes.object),
-};
 
 export default Sidebar;

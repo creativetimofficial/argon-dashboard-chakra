@@ -2,7 +2,6 @@
 import { Button, useColorModeValue } from "@chakra-ui/react";
 // Custom Icons
 import { SettingsIcon } from "components/Icons/Icons";
-import PropTypes from "prop-types";
 import React from "react";
 
 export default function FixedPlugin(props) {
@@ -42,9 +41,3 @@ export default function FixedPlugin(props) {
     </>
   );
 }
-
-FixedPlugin.propTypes = {
-  fixed: PropTypes.bool,
-  onChange: PropTypes.func,
-  onSwitch: PropTypes.func,
-};
