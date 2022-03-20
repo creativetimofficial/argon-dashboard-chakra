@@ -1,6 +1,6 @@
 {
   "name": "argon-dashboard-chakra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "homepage": "https://demos.creative-tim.com/argon-dashboard-chakra/#/",
   "dependencies": {
@@ -32,11 +32,11 @@
     "react-jvectormap": "0.0.16",
     "react-router-dom": "5.2.0",
     "react-scripts": "5.0.0",
-    "react-swipeable-views": "0.13.9",
+    "react-swipeable-views": "0.14.0",
     "react-table": "7.7.0",
     "react-tagsinput": "3.19.0",
     "stylis": "^4.0.10",
-    "stylis-plugin-rtl": "^2.1.0"
+    "stylis-plugin-rtl": "^2.1.1"
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
