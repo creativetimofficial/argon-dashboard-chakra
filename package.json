@@ -1,6 +1,6 @@
 {
 	"name": "argon-dashboard-chakra",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"private": true,
 	"homepage": "https://demos.creative-tim.com/argon-dashboard-chakra/#/",
 	"dependencies": {
@@ -65,15 +65,7 @@
 		"prettier": "2.2.1"
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
 	}
 }

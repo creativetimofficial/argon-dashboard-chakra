@@ -1,4 +1,20 @@
 # Change Log
+## [1.0.3] 2022-12-07
+
+### Update v1.0.2
+
+- The problem with sass fixed.
+
+### Added dependencies
+
+```
+sass                      ^1.56.1
+```
+### Removed dependencies
+
+```
+node-sass
+```
 
 ## [1.0.2] 2022-05-16
 
